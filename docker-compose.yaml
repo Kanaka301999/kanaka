@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  kanakawebapp:
+    image: kanakamobiweb:appv1
+    build: .
+    container_name: kanakawebc1
+    ports:
+     - 1543:80
+    restart: always 
